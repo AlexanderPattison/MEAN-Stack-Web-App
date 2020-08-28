@@ -1,3 +1,6 @@
+# Deployed App URL
+ http://angular-node-application.s3-website.ca-central-1.amazonaws.com
+
 # MeanCourse
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
