@@ -12,7 +12,7 @@ mongoose
   .connect(
     "mongodb+srv://alex:" +
       process.env.MONGO_ATLAS_PW +
-      "@cluster0.knvci.mongodb.net/node-angular?retryWrites=true&w=majority"
+      "@cluster0.ikinm.mongodb.net/angular-node?retryWrites=true&w=majority"
   )
   .then(() => {
     console.log("Connected to database!");
