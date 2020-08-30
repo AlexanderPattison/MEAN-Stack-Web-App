@@ -19,7 +19,7 @@ exports.createUser = (req, res, next) => {
       })
       .catch(err => {
         res.status(500).json({
-          message: "Invalid authentication credentials!"
+          message: "This email is already registered!"
         });
       });
   });
